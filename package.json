@@ -1,0 +1,19 @@
+{
+    "name": "com.evothings.cordovaibeacon",
+    "version": "0.0.1",
+    "displayName": "iBeacon",
+    "cordova": {
+        "platforms": [
+            "ios"
+        ],
+        "plugins": {
+            "com.unarin.cordova.beacon": {},
+            "de.appplant.cordova.plugin.local-notification": {}
+        }
+    },
+    "dependencies": {
+        "cordova-ios": "~4.4.0",
+        "com.unarin.cordova.beacon": "https://github.com/petermetz/cordova-plugin-ibeacon",
+        "de.appplant.cordova.plugin.local-notification": "https://github.com/katzer/cordova-plugin-local-notifications"
+    }
+}

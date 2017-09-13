@@ -1,0 +1,25 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "com.unarin.cordova.beacon": {
+            "PACKAGE_NAME": "com.evothings.cordovaibeacon"
+        },
+        "de.appplant.cordova.plugin.local-notification": {
+            "PACKAGE_NAME": "com.evothings.cordovaibeacon"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.evothings.cordovaibeacon"
+        },
+        "cordova-plugin-app-event": {
+            "PACKAGE_NAME": "com.evothings.cordovaibeacon"
+        }
+    }
+}
