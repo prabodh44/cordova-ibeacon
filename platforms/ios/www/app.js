@@ -247,7 +247,7 @@ var app = (function()
 	function displayRegionEvents()
 	{
 		// Clear list.
-		$('#events').empty();
+		$('#events').empty();  
 
 		// Update list.
 		for (var i = mRegionEvents.length - 1; i >= 0; --i)
